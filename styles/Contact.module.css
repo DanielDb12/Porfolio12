@@ -35,7 +35,7 @@ justify-content: center;
   padding: 1.2rem;
   width: 150%;
   position: relative;
-  right: 5rem;
+  right: 6rem;
   border-radius: 15px;
   margin:1.2rem;
   font-size:1.5rem;
@@ -45,7 +45,7 @@ justify-content: center;
   margin: 1.2rem;
   width: 150%;
   position:relative;
-  right: 5rem;
+  right: 6rem;
   resize: none;
 }
 
@@ -86,7 +86,7 @@ justify-content: center;
 
 .form .input  .message h3{
   font-size: 1.5rem;
-  left: 3.5rem;
+  right: 4rem;
   position: relative;
   top:2rem
 

@@ -293,7 +293,7 @@ position: relative;
 top: 5rem;
 text-align: center;
 color: white;
-font-size: 3.5rem;
+font-size: 2.5rem;
 }
 
 
@@ -304,18 +304,18 @@ font-size: 3.5rem;
     flex-direction: column;
     align-items: center;
   
-    width: 100%;
+    max-width: 100%;
   }
 
   .number .one {
-    height: 50rem;
+    height: 40rem;
   }
 
 .number .one .imgone {  
   position: relative; 
   left:10rem;
   width: 50%;
-height: 250px;
+height: 200px;
 }
 
 .number .one .content {
@@ -333,30 +333,31 @@ height: 10rem;
   margin-top: 5rem;
   width: 350px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   
 
 }
 
 .number .one .text h2 {
   color:white;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .number .one .text p {
   color:white;
-font-size: 1.5rem;
+font-size: 2.5rem;
 }
 
 
 .number .two {
-  height: 50rem;
+  height: 40rem;
+overflow: hidden;
 }
 .number .two .imgtwo {
   position: relative;
-  left:10rem;
-  width: 50%;
-  height: 250px;
+  left:9rem;
+  max-width: 50%;
+  height: 200px;
 }
 
 .number .two .content {
@@ -366,7 +367,8 @@ font-size: 1.5rem;
 }
 
 .number .two .content .iconback  {
-margin-left: 1rem;
+margin-left: 0.5rem;
+transform: translateY(30%);
 height: 8rem;
 width: 10rem;
 }
@@ -380,33 +382,36 @@ width: 10rem;
 
 .number .two .text h2 {
   color:white;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .number .two .text p {
   color:white;
-font-size: 1.5rem;
+font-size: 2.5rem;
 }
 
 
 
 .number .three .imgthree {
   position: relative;
-  left:10rem;
+  left:9rem;
 width: 50%;
-height: 250px;
+height: 200px;
 }
 
 .number .three .content {
   position: relative;
   bottom:12rem;
+  max-width: 100%;
 
 }
 
+
 .number .three .content .icondesign  {
-margin-left: 0.5rem;
-width: 10rem;
-height: 8rem;
+
+  margin-left: 0.5rem;
+width: 8rem;
+height:10rem;
 }
 .number .three .text   {
   width: 350px;
@@ -417,12 +422,15 @@ text-align: center;
 
 .number .three .text h2 {
   color:white;
-  font-size: 3.5rem;
+  position: relative;
+  right: 4px;
+  text-align: center;
+  font-size: 2.3rem;
 }
 
 .number .three .text p {
   color:white;
-font-size: 1.5rem;
+font-size: 3rem;
 }
 
 

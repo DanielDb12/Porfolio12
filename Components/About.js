@@ -60,18 +60,14 @@ export const About = () => {
             }}
           >
             <p>
-              Hola mi nombre es Daniel Duarte estoy comenzando con mi carrera
-              como programador, me encanta todo lo que tenga que ver con
-              programar, me parece fantástico de como una idea se puede plasmar
-              en grandes herramientas que puedan ayudar a otras personas y eso
-              lo que me trajo a este camino.
-              <br/>
-              Me considero una persona
-              emprendedoras, con hambre de aprender y de conocer personas qué
-              sumen un gran valor en esta comunidad, siempre trato de ayudar,
-              aunque no sé si eso será una debilidad de mi parte, pero siempre
-              he considerado que "hay que dejar mejor el mundo de como lo
-              encontramos" una frase celebre de Baden Powell.
+Hello my name is Daniel Duarte I am starting my career
+ As a programmer, I've been watching and practicing tutorials on YouTube for a year
+on the channels of Jhon Mircha, Fazt, FreeCodeCamp, Pildoras Informáticas, the aforementioned channels have been my university in this great world of computing.
+              <br/><br/>
+I have knowledge in the Front-End side of HTML, CSS, JS, React on the server side NodeJs, Mongo and MySql and additionally I manage a tool called Penpot for web designs.
+              <br/><br/>
+My goal is to continue learning, meet new people in the world of technology, help those who are entering this path for the first time.
+            
             </p>
           </div>
         </div>

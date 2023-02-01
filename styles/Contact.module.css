@@ -1,7 +1,7 @@
 .container {
   margin:0;
  background: #1a1b1e ; 
-height: 75rem;
+height: 1024px;
 max-width: 100%;
 display: flex;
 flex-direction:column;
@@ -11,7 +11,7 @@ justify-content: center;
 }
 
 .container h2 {
- top:-8rem; 
+ 
   padding:2rem;
   margin:0;
   font-size:6rem;
@@ -22,9 +22,8 @@ justify-content: center;
 
 .containerform {
   position: relative;
-  top: -8rem;
  border-radius: 30px; 
-  width: 50%;
+  width: 60%;
   height: 70%;
   background-color: white;
 display:flex;
@@ -116,13 +115,15 @@ box-shadow: inset 0px 20px 18px 0px rgba(257, 257, 257, 0.3),
 
 @media screen and (min-width:768px ) and (max-width: 1023px) {
 
-
+.container{
+  height: 80rem;
+}
 .containerform {
   position: relative;
-  top: -8rem;
+  top: 2rem;
  border-radius: 30px; 
  width: 60%; 
- height: 70%;
+ height: 60%;
   background-color: white;
 display:flex;
 justify-content: center;
@@ -157,7 +158,7 @@ bottom: 5rem;
  height: 80px;
  border:none;
  font-size:2rem;
-  border-radius:5rem;
+  border-radius:10px;
 background-color:#0f78ee;
   text-align: center;
 font-weight:bold;
@@ -197,88 +198,7 @@ box-shadow: inset 0px 20px 18px 0px rgba(257, 257, 257, 0.3),
 
 }
 
-@media screen and (min-width:768px ) and (max-width:1023px) {
 
-
-.containerform {
-  position: relative;
-  top: -8rem;
- border-radius: 30px; 
- width: 50%; 
- height: 70%;
-  background-color: white;
-display:flex;
-justify-content: center;
-}
-
-
-
-.form .input input{
-  padding: 1.2rem;
-  width: 100%;
-  position: relative;
- left: 1rem; 
-  border-radius: 15px;
-  margin:1.2rem;
-  font-size:1.5rem;
-}
-
-.form .input textarea{
-  margin: 1.2rem;
-  width: 100%;
-  position:relative;
-  left: 1rem;
-  resize: none;
-}
-
-
- .form .input .button{
-position:relative;
-transform: translate(10%);
-bottom: 5rem;
- width:250px;
- height: 80px;
- border:none;
- font-size:2rem;
-  border-radius:5rem;
-background-color:#0f78ee;
-  text-align: center;
-font-weight:bold;
-color:white;
-cursor: pointer;
-z-index: 20;
-box-shadow: inset 0px 20px 18px 0px rgba(257, 257, 257, 0.3),
-            inset 30px 0 80px 0px rgba(0,0, 0, 0.3);
-}
-
-.form .input  .message h3{
-  font-size: 1.5rem;
-  left: 2.5rem;
-  position: relative;
-  top:2rem
-
-}
-
-.form .input  .email h3{
-  font-size: 1.5rem;
-  left: 2.5rem;
-  position: relative;
-  top:2rem;
-
-}
-
-
-.form .input  .name h3{
-  font-size: 1.5rem;
-  left: 2.5rem;
-  position: relative;
-  top:2rem;
-
-}
-
-
-
-}
 
 @media screen and (min-width:320px ) and (max-width: 767px) {
 
@@ -292,48 +212,54 @@ box-shadow: inset 0px 20px 18px 0px rgba(257, 257, 257, 0.3),
 
 
 .containerform {
+
   position: relative;
-  top: -8rem;
+  top: 2rem;
  border-radius: 30px; 
- width: 80%; 
+overflow: hidden;
+ width: 90%; 
  height: 70%;
   background-color: white;
 display:flex;
 justify-content: center;
+align-items: center;
 }
-
 
 
 .form .input input{
   padding: 1.2rem;
-  width: 98%;
+  margin-top: 4rem;
+  width:90%;
   position: relative;
- left: 1rem; 
+transform: translateX(40%); 
   border-radius: 15px;
+  display: flex;
   margin:1.2rem;
   font-size:1.5rem;
 }
 
+
 .form .input textarea{
   margin: 1.2rem;
-  width: 98%;
+  width: 90%;
   position:relative;
-  left: 1rem;
+  display: flex;
+  transform: translate(40%);
   resize: none;
 }
 
 
  .form .input .button{
-position:relative;
-transform: translate(10%);
+
 bottom: 5rem;
- width:250px;
+width: 80%;
+display: inline;
+transform: translatex(40%);
  height: 80px;
  border:none;
  font-size:2rem;
-  border-radius:5rem;
+  border-radius:10px;
 background-color:#0f78ee;
-  text-align: center;
 font-weight:bold;
 color:white;
 cursor: pointer;
@@ -344,26 +270,32 @@ box-shadow: inset 0px 20px 18px 0px rgba(257, 257, 257, 0.3),
 
 .form .input  .message h3{
   font-size: 1.5rem;
-  left: 2.5rem;
+ text-align: left; 
   position: relative;
-  top:2rem
+  top:2rem;
+  left: 1rem;
+ margin: 2rem; 
 
 }
 
 .form .input  .email h3{
   font-size: 1.5rem;
-  left: 2.5rem;
+  left: 1rem;
   position: relative;
   top:2rem;
+  text-align: left;
+  margin: 2rem;
 
 }
 
 
 .form .input  .name h3{
   font-size: 1.5rem;
-  left: 2.5rem;
+  left: 1rem;
   position: relative;
   top:2rem;
+  margin: 2rem;
+
 
 }
 

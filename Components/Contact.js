@@ -72,7 +72,7 @@ export const Contact = () => {
                 {errors.name && <p>{errors.name}</p>}
               </div>
               <div className={style.email}>
-                <h3>Email</h3>
+                <h3>Email</h3> 
                 <input
                   type="email"
                   name="email"
@@ -97,22 +97,14 @@ export const Contact = () => {
                 {errors.message && <p>{errors.message}</p>}
               </div>
 
-              <input className={style.button} type="submit" value="Send" />
-            </div>
+
+              <input className={style.button} type="submit" value="Enviar" />
+           
+</div>
           </form>
         </div>
       </div>
 
-      {/*<form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
-    */}
     </>
   );
 };

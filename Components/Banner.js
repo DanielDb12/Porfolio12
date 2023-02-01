@@ -125,7 +125,7 @@ export const Banner = () => {
             </div>
             
             <div className={style.btn}>
-              <Link href="pdf" target="_blank"><button>Curriculum</button></Link>
+              <Link href="cv.pdf" target="_blank"><button>Curriculum</button></Link>
 
             </div>
           

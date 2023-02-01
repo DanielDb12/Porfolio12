@@ -98,11 +98,13 @@ top: 90%;
 .icons{
 display:flex;
 flex-direction: column;
-bottom:140px;
+bottom:350px;
 line-height: 10rem;
 position: absolute;
 margin-left: 30px;
 }
+
+
 
 .text{
   position: relative;
@@ -295,7 +297,7 @@ align-items: center;
 bottom:100px;
 line-height: 10rem;
 position: absolute;
-margin-left: 3rem;
+margin-left: 5rem;
 }
 
 

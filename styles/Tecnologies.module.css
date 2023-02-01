@@ -1,0 +1,437 @@
+
+
+.container{
+  height: 100%;
+  max-width: 100%;
+  background-color:#29282d;
+}
+
+.title h2{
+margin: 0;
+position: relative;
+top: 5rem;
+text-align: center;
+color: white;
+font-size: 7rem;
+}
+
+.circuit {
+  position:relative;
+  right:15px;
+  bottom:142px;
+}
+
+.background .number{
+  position:relative;
+  bottom: 35rem;
+  display: flex; 
+  justify-content: center;
+
+}
+
+.number .one {
+  margin-left: 1rem;
+}
+.number .one .imgone {
+  position: relative;
+  left:7rem;
+
+}
+
+.number .one .content {
+  position: relative;
+  bottom:12rem;
+
+}
+
+.number .one .content .iconnfront  {
+margin-left: 1 rem;
+}
+.number .one .text   {
+  margin-top: 5rem;
+  width: 400px;
+  font-size: 1.5rem;
+  
+
+}
+
+.number .one .text h2 {
+  color:white;
+  font-size: 3rem;
+}
+
+.number .one .text p {
+  color:white;
+}
+
+.number .two {
+  margin-left: 1.5rem;
+}
+
+.number .two .imgtwo {
+  position: relative;
+  left:7rem;
+}
+
+.number .two .content {
+  position: relative;
+  bottom:12rem;
+  
+
+}
+
+.number .two .content .iconback  {
+margin-left: 1rem;
+
+}
+.number .two .text   {
+  width: 400px;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+
+}
+
+.number .two .text h2 {
+  color:white;
+  font-size: 3rem;
+}
+
+.number .two .text p {
+  color:white;
+}
+
+.number .three {
+  margin-left: 20px;
+}
+
+.number .three .imgthree {
+  position: relative;
+  left:6rem;
+}
+
+.number .three .content {
+  position: relative;
+  bottom:12rem;
+
+}
+
+.number .three .content .icondesign  {
+margin-left: 1rem;
+}
+.number .three .text   {
+  width: 400px;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+
+}
+
+.number .three .text h2 {
+  color:white;
+  font-size: 3rem;
+}
+
+.number .three .text p {
+  color:white;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px ) and (max-width: 1023px) {
+  .background .number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    width: 100%;
+  }
+
+  .number .one {
+    height: 60rem;
+  }
+
+.number .one .imgone {  
+  position: relative; 
+  left:10rem;
+  width: 90%;
+height: 450px;
+}
+
+.number .one .content {
+  position: relative;
+  bottom:12rem;
+
+}
+
+.number .one .content .iconnfront  {
+margin-left: 4.5rem;
+width: 8rem;
+height: 10rem;
+}
+.number .one .text   {
+  margin-top: 5rem;
+  width: 500px;
+  font-size: 2rem;
+  
+
+}
+
+.number .one .text h2 {
+  color:white;
+  font-size: 3.5rem;
+}
+
+.number .one .text p {
+  color:white;
+}
+
+
+.number .two {
+  height: 60rem;
+}
+.number .two .imgtwo {
+  position: relative;
+  left:10rem;
+  width: 90%;
+  height: 450px;
+}
+
+.number .two .content {
+  position: relative;
+  bottom:13rem;
+
+}
+
+.number .two .content .iconback  {
+margin-left: 3rem;
+height: 8rem;
+width: 10rem;
+}
+.number .two .text   {
+  width: 500px;
+  font-size: 2rem;
+  margin-top: 5rem;
+
+}
+
+.number .two .text h2 {
+  color:white;
+  font-size: 3.5rem;
+}
+
+.number .two .text p {
+  color:white;
+}
+
+
+
+.number .three .imgthree {
+  position: relative;
+  left:10rem;
+width: 90%;
+height: 450px;
+}
+
+.number .three .content {
+  position: relative;
+  bottom:12rem;
+
+}
+
+.number .three .content .icondesign  {
+margin-left: 3rem;
+width: 10rem;
+height: 8rem;
+}
+.number .three .text   {
+  width: 500px;
+  font-size: 2rem;
+  margin-top: 5rem;
+
+}
+
+.number .three .text h2 {
+  color:white;
+  font-size: 3.5rem;
+}
+
+.number .three .text p {
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+  
+}
+
+
+@media screen and (min-width:300px ) and (max-width: 768px) {
+
+.circuit  {
+  position:relative;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 3rem;
+  right:150px;
+  bottom:120px;
+}
+
+
+.title h2{
+margin: 0;
+position: relative;
+top: 5rem;
+text-align: center;
+color: white;
+font-size: 3.5rem;
+}
+
+
+
+
+  .background .number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    width: 100%;
+  }
+
+  .number .one {
+    height: 50rem;
+  }
+
+.number .one .imgone {  
+  position: relative; 
+  left:10rem;
+  width: 50%;
+height: 250px;
+}
+
+.number .one .content {
+  position: relative;
+  bottom:12rem;
+
+}
+
+.number .one .content .iconnfront  {
+margin-left: 2rem;
+width: 8rem;
+height: 10rem;
+}
+.number .one .text   {
+  margin-top: 5rem;
+  width: 350px;
+  text-align: center;
+  font-size: 1.5rem;
+  
+
+}
+
+.number .one .text h2 {
+  color:white;
+  font-size: 3.5rem;
+}
+
+.number .one .text p {
+  color:white;
+font-size: 1.5rem;
+}
+
+
+.number .two {
+  height: 50rem;
+}
+.number .two .imgtwo {
+  position: relative;
+  left:10rem;
+  width: 50%;
+  height: 250px;
+}
+
+.number .two .content {
+  position: relative;
+  bottom:13rem;
+
+}
+
+.number .two .content .iconback  {
+margin-left: 1rem;
+height: 8rem;
+width: 10rem;
+}
+.number .two .text   {
+  width: 350px;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 5rem;
+
+}
+
+.number .two .text h2 {
+  color:white;
+  font-size: 3.5rem;
+}
+
+.number .two .text p {
+  color:white;
+font-size: 1.5rem;
+}
+
+
+
+.number .three .imgthree {
+  position: relative;
+  left:10rem;
+width: 50%;
+height: 250px;
+}
+
+.number .three .content {
+  position: relative;
+  bottom:12rem;
+
+}
+
+.number .three .content .icondesign  {
+margin-left: 0.5rem;
+width: 10rem;
+height: 8rem;
+}
+.number .three .text   {
+  width: 350px;
+  font-size: 2rem;
+  margin-top: 5rem;
+text-align: center;
+}
+
+.number .three .text h2 {
+  color:white;
+  font-size: 3.5rem;
+}
+
+.number .three .text p {
+  color:white;
+font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+  
+}

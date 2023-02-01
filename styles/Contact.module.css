@@ -1,0 +1,372 @@
+.container {
+  margin:0;
+ background: #1a1b1e ; 
+height: 75rem;
+max-width: 100%;
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+
+}
+
+.container h2 {
+ top:-8rem; 
+  padding:2rem;
+  margin:0;
+  font-size:6rem;
+  color:#fff;
+  position:relative;
+  
+}
+
+.containerform {
+  position: relative;
+  top: -8rem;
+ border-radius: 30px; 
+  width: 40%;
+  height: 70%;
+  background-color: white;
+display:flex;
+justify-content: center;
+}
+
+
+.form .input input{
+  padding: 1.2rem;
+  width: 150%;
+  position: relative;
+  right: 5rem;
+  border-radius: 15px;
+  margin:1.2rem;
+  font-size:1.5rem;
+}
+
+.form .input textarea{
+  margin: 1.2rem;
+  width: 150%;
+  position:relative;
+  right: 5rem;
+  resize: none;
+}
+
+.form .input  .name {
+  
+  right: 2rem;
+  position: relative;
+  
+
+}
+
+.form .input  .name h3{
+  font-size: 1.5rem;
+  right: 3.5rem;
+  position: relative;
+  top:2rem;
+
+}
+
+.form .input .email {
+  position: relative;
+  bottom: 3.5rem;
+  right: 2rem;
+}
+.form .input  .email h3{
+  font-size: 1.5rem;
+  right: 3.5rem;
+  position: relative;
+  top:2rem;
+
+}
+
+.form .input .message {
+  position: relative;
+  bottom: 6rem;
+  right: 2rem;
+}
+
+.form .input  .message h3{
+  font-size: 1.5rem;
+  left: 3.5rem;
+  position: relative;
+  top:2rem
+
+}
+
+
+
+ .form .input .button{
+position:relative;
+transform: translate(50%);
+bottom: 5rem;
+ width:250px;
+ height: 80px;
+ border:none;
+ font-size:2rem;
+  border-radius:5rem;
+background-color:#0f78ee;
+  text-align: center;
+font-weight:bold;
+color:white;
+cursor: pointer;
+z-index: 20;
+box-shadow: inset 0px 20px 18px 0px rgba(257, 257, 257, 0.3),
+            inset 30px 0 80px 0px rgba(0,0, 0, 0.3);
+}
+
+@media screen and (min-width:768px ) and (max-width: 1023px) {
+
+
+.containerform {
+  position: relative;
+  top: -8rem;
+ border-radius: 30px; 
+ width: 60%; 
+ height: 70%;
+  background-color: white;
+display:flex;
+justify-content: center;
+}
+
+
+
+.form .input input{
+  padding: 1.2rem;
+  width: 100%;
+  position: relative;
+ left: 1rem; 
+  border-radius: 15px;
+  margin:1.2rem;
+  font-size:1.5rem;
+}
+
+.form .input textarea{
+  margin: 1.2rem;
+  width: 100%;
+  position:relative;
+  left: 1rem;
+  resize: none;
+}
+
+
+ .form .input .button{
+position:relative;
+transform: translate(12%);
+bottom: 5rem;
+ width:250px;
+ height: 80px;
+ border:none;
+ font-size:2rem;
+  border-radius:5rem;
+background-color:#0f78ee;
+  text-align: center;
+font-weight:bold;
+color:white;
+cursor: pointer;
+z-index: 20;
+box-shadow: inset 0px 20px 18px 0px rgba(257, 257, 257, 0.3),
+            inset 30px 0 80px 0px rgba(0,0, 0, 0.3);
+}
+
+.form .input  .message h3{
+  font-size: 1.5rem;
+  left: 2.5rem;
+  position: relative;
+  top:2rem
+
+}
+
+.form .input  .email h3{
+  font-size: 1.5rem;
+  left: 2.5rem;
+  position: relative;
+  top:2rem;
+
+}
+
+
+.form .input  .name h3{
+  font-size: 1.5rem;
+  left: 2.5rem;
+  position: relative;
+  top:2rem;
+
+}
+
+
+
+}
+
+@media screen and (min-width:768px ) and (max-width:1023px) {
+
+
+.containerform {
+  position: relative;
+  top: -8rem;
+ border-radius: 30px; 
+ width: 50%; 
+ height: 70%;
+  background-color: white;
+display:flex;
+justify-content: center;
+}
+
+
+
+.form .input input{
+  padding: 1.2rem;
+  width: 100%;
+  position: relative;
+ left: 1rem; 
+  border-radius: 15px;
+  margin:1.2rem;
+  font-size:1.5rem;
+}
+
+.form .input textarea{
+  margin: 1.2rem;
+  width: 100%;
+  position:relative;
+  left: 1rem;
+  resize: none;
+}
+
+
+ .form .input .button{
+position:relative;
+transform: translate(10%);
+bottom: 5rem;
+ width:250px;
+ height: 80px;
+ border:none;
+ font-size:2rem;
+  border-radius:5rem;
+background-color:#0f78ee;
+  text-align: center;
+font-weight:bold;
+color:white;
+cursor: pointer;
+z-index: 20;
+box-shadow: inset 0px 20px 18px 0px rgba(257, 257, 257, 0.3),
+            inset 30px 0 80px 0px rgba(0,0, 0, 0.3);
+}
+
+.form .input  .message h3{
+  font-size: 1.5rem;
+  left: 2.5rem;
+  position: relative;
+  top:2rem
+
+}
+
+.form .input  .email h3{
+  font-size: 1.5rem;
+  left: 2.5rem;
+  position: relative;
+  top:2rem;
+
+}
+
+
+.form .input  .name h3{
+  font-size: 1.5rem;
+  left: 2.5rem;
+  position: relative;
+  top:2rem;
+
+}
+
+
+
+}
+
+@media screen and (min-width:320px ) and (max-width: 767px) {
+
+.container h2 {
+ 
+  font-size:4rem;
+  color:#fff;
+  position:relative;
+ right: 0.5rem; 
+}
+
+
+.containerform {
+  position: relative;
+  top: -8rem;
+ border-radius: 30px; 
+ width: 80%; 
+ height: 70%;
+  background-color: white;
+display:flex;
+justify-content: center;
+}
+
+
+
+.form .input input{
+  padding: 1.2rem;
+  width: 98%;
+  position: relative;
+ left: 1rem; 
+  border-radius: 15px;
+  margin:1.2rem;
+  font-size:1.5rem;
+}
+
+.form .input textarea{
+  margin: 1.2rem;
+  width: 98%;
+  position:relative;
+  left: 1rem;
+  resize: none;
+}
+
+
+ .form .input .button{
+position:relative;
+transform: translate(10%);
+bottom: 5rem;
+ width:250px;
+ height: 80px;
+ border:none;
+ font-size:2rem;
+  border-radius:5rem;
+background-color:#0f78ee;
+  text-align: center;
+font-weight:bold;
+color:white;
+cursor: pointer;
+z-index: 20;
+box-shadow: inset 0px 20px 18px 0px rgba(257, 257, 257, 0.3),
+            inset 30px 0 80px 0px rgba(0,0, 0, 0.3);
+}
+
+.form .input  .message h3{
+  font-size: 1.5rem;
+  left: 2.5rem;
+  position: relative;
+  top:2rem
+
+}
+
+.form .input  .email h3{
+  font-size: 1.5rem;
+  left: 2.5rem;
+  position: relative;
+  top:2rem;
+
+}
+
+
+.form .input  .name h3{
+  font-size: 1.5rem;
+  left: 2.5rem;
+  position: relative;
+  top:2rem;
+
+}
+
+
+
+}

@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto:wght@100;300;400&family=Urbanist:wght@100;200;500&display=swap');
+
+
+
+.container {
+  background: #1a1b1e ;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  color: white;
+  justify-content: space-around;
+}
+
+
+.container .background {
+position: relative;
+background:url("../public/Banner/Geometric/Boardgeometric.svg");
+background-size:cover;
+background-repeat:no-repeat;
+width:100%;
+}
+
+.pc{
+  position: absolute;
+  right: 0;
+  top:50px;
+height: 75%;
+  width: 70%;
+  z-index: 2;
+}
+
+
+
+
+.ilumination{
+position: relative;
+  width: 10rem;
+height: 10rem;
+background:rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+left: 60%;
+top:32%;
+backdrop-filter:blur(5px);
+-webkit-animation: glowing 1s ease-in-out infinite alternate;
+  -moz-animation: glowing 1s ease-in-out infinite alternate;
+  animation: glowing 1s ease-in-out infinite alternate;
+}
+
+.ilumination::before{
+  filter: blur(12px);
+  content: "";
+  position: absolute;
+  height: 40px; 
+  width: 40px;
+  top:-60px;
+  left:-50px;
+border-radius: 50%;
+background-color:#3661d0;
+  z-index: -1;
+  -webkit-transform: scale(10);
+  -webkit-transform-origin: top left;
+}
+
+
+.circles{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.circle1{
+position: relative;
+top: 90%;
+
+}
+
+.figure1{
+  position:relative;
+  bottom:7%;
+  left:142px;
+  height: 80%;
+  z-index: 1;
+  width:80%;
+}
+
+
+.figure2{
+  position:relative;
+  right:8px;
+  top:20px;
+  
+}
+
+.icons{
+display:flex;
+flex-direction: column;
+bottom:140px;
+line-height: 10rem;
+position: absolute;
+margin-left: 30px;
+}
+
+.text{
+  position: relative;
+padding: 0px 5rem;
+  margin: 0px 0px 0px 8rem;
+  bottom:17.5rem;
+}
+
+.text h1 { 
+  font-size: 5rem;
+  color: white;
+  text-align: left;
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+.text span {
+  color:cornflowerblue;
+animation: typing 5s infinite;
+font-size: 4rem;
+}
+
+.content .btn button{
+position:relative;
+bottom:17rem;
+left:17rem;
+ width:250px;
+ height: 80px;
+ border:none;
+ font-size:2rem;
+  border-radius:5rem;
+background-color:#0f78ee;
+  text-align: center;
+font-weight:bold;
+color:white;
+cursor: pointer;
+z-index: 20;
+box-shadow: inset 0px 20px 18px 0px rgba(257, 257, 257, 0.3),
+            inset 30px 0 80px 0px rgba(0,0, 0, 0.3);
+}
+
+
+/* Typewriter effect 1 */
+@keyframes typing {
+  0.0000%, 27.3488% { content: ""; }
+  1.1395%, 26.2093% { content: "D"; }
+  2.2791%, 25.0698% { content: "De"; }
+  3.4186%, 23.9302% { content: "Dev"; }
+  4.5581%, 22.7907% { content: "Deve"; }
+  5.6977%, 21.6512% { content: "Devel"; }
+  6.8372%, 20.5116% { content: "Develo"; }
+  7.9767%, 19.3721% { content: "Develop"; }
+  9.1163%, 18.2326% { content: "Develope"; }
+  10.2558%, 17.0930% { content: "Developer"; }
+
+  30.7674%, 52.2791% { content: ""; }
+  31.9070%, 51.1395% { content: "F"; }
+  33.0465%, 50.0000% { content: "Fu"; }
+  34.1860%, 49.8605% { content: "Ful"; }
+  35.3256%, 48.7209% { content: "Full"; }
+  36.4651%, 47.5814% { content: "FullS"; }
+  37.6047%, 46.4419% { content: "FullSt"; }
+  38.6047%, 45.4419% { content: "FullSta"; }
+  39.4654%, 44.4419% { content: "FullStac"; }
+  41.6047%, 43.0000% { content: "FullStack"; }
+
+  54.6977%, 75.2093% { content: ""; }
+  55.8372%, 74.0698% { content: "D"; }
+  56.9767%, 72.9302% { content: "De"; }
+  58.1163%, 71.7907% { content: "Des"; }
+  59.2558%, 70.6512% { content: "Desi"; }
+  60.3953%, 69.5116% { content: "Desig"; }
+  61.5349%, 68.3721% { content: "Design"; }
+ 62.5349%, 67.3721% { content: "Designer"; }
+
+
+  78.6279%, 96.8605% { content: "";}
+  79.7674%, 95.7209% { content: "U"; }
+  80.9070%, 94.5814% { content: "UI"; }
+  82.0465%, 93.4419% { content: "UI/"; }
+  83.1860%, 92.3023% { content: "UI/U"; }
+  84.3256%, 91.1628% { content: "UI/UX"; }
+
+  }
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 13.5s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+
+
+.square{
+  width:150% ;
+height: 200%;
+position: absolute;
+top:140%;
+transform: rotate(-7deg);
+background: rgba(255, 255, 255, 0.2);
+
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+
+}
+
+@media screen and (min-width: 768px )and (max-width: 1023px) {
+
+  .figure1 {
+    position: relative;
+    left:10px;
+    
+  }
+
+.pc {
+ display:none;
+}
+
+  .text h1 {
+font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+
+  .figure1 {
+    position: relative;
+    left:10px;
+    
+  }
+
+.pc {
+ display:none;
+}
+
+  .text h1 {
+font-size: 4rem;
+bottom: 5rem;
+position: relative;
+right: 5rem;
+  }
+
+.text span {
+  color:cornflowerblue;
+animation: typing 5s infinite;
+font-size: 3rem;
+}
+
+.content .btn button{
+position:relative;
+bottom:20rem;
+left:7rem;
+ width:250px;
+ height: 80px;
+ border:none;
+ font-size:2rem;
+  border-radius:5rem;
+background-color:#0f78ee;
+  text-align: center;
+font-weight:bold;
+color:white;
+cursor: pointer;
+z-index: 20;
+box-shadow: inset 0px 20px 18px 0px rgba(257, 257, 257, 0.3),
+            inset 30px 0 80px 0px rgba(0,0, 0, 0.3);
+}
+
+.icons{
+display:flex;
+flex-direction: column;
+bottom:250px;
+line-height: 10rem;
+position: absolute;
+margin-left: 30px;
+}
+
+
+.figure2{
+  position:relative;
+overflow: hidden;
+max-width: 100%;
+z-index: -2;  
+right:8px;
+  top:30px;
+  
+}
+
+
+
+}
+
+
